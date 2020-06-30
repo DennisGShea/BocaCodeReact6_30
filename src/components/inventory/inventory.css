@@ -1,0 +1,28 @@
+
+
+body {
+    background-color: #272262;
+    color: white;
+  }
+  h2 {
+    color: #ff216e;
+  }
+  .menu-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu-item {
+    margin: 1em;
+    width: 27.5%;
+    padding: 1em;
+    background-color: rgba(255,255,255,.25);
+  }
+  .menu-item > h3 {
+    float: left;
+  }
+  .menu-item > p {
+    float: right;
+    padding-top: 6px;
+  }
