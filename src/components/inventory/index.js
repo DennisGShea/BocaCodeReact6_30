@@ -19,8 +19,9 @@ class Menu extends React.Component {
       .then((data) => {
         this.setState({ isLoaded: true, menu: data })
       })
-      .catch(err => console.log('Error fetching menu: ' + err))
+      .catch(err => console.log('Error fetching menfu: ' + err))
     // }, 6000)
+    
   }
   render() {
     let { isLoaded, menu } = this.state

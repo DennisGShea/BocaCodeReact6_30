@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #272262;
+    background-color: #3945b9;
     color: white;
   }
   h2 {
@@ -17,7 +17,7 @@ body {
     margin: 1em;
     width: 27.5%;
     padding: 1em;
-    background-color: rgba(255,255,255,.25);
+    background-color: rgba(255,255,255,.20);
   }
   .menu-item > h3 {
     float: left;

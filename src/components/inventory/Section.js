@@ -9,11 +9,13 @@ console.log(name, items)
 return (
     <Fragment>
          <h2>{name.toUpperCase()}</h2>
+         <div className="menu-section">
              {items.map((item, index) => {
                  return <Item 
                  key={index}
                  item={item} />
              }) }
+             </div>
     </Fragment>
 
 )}
